@@ -34,7 +34,7 @@ return [
 		'response' => [
 			'formatters' => [
 				'pdf' => [
-					'class' => 'robregonm\pdf\PdfResponseFormatter',
+					'class' => 'uranetz\pdf\PdfResponseFormatter',
 					'mode' => '', // Optional
 					'format' => 'A4',  // Optional but recommended. http://mpdf1.com/manual/index.php?tid=184
 					'defaultFontSize' => 0, // Optional

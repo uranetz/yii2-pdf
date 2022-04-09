@@ -1,11 +1,11 @@
 <?php
 /**
  *
- * @author Ricardo Obregón <ricardo@obregon.co>
- * @created 15/05/14 12:35 PM
+ * @author Vladimir Smirnov <uranetz@obregon.co>
+ * @created 15/01/22 10:27 PM
  */
 
-namespace robregonm\pdf;
+namespace uranetz\pdf;
 
 use Yii;
 use yii\base\Component;
@@ -17,7 +17,6 @@ use yii\web\ResponseFormatterInterface;
  *
  * It is used by [[Response]] to format response data.
  *
- * @author Ricardo Obregón <robregonm@gmail.com>
  * @since 2.0
  */
 class PdfResponseFormatter extends Component implements ResponseFormatterInterface
